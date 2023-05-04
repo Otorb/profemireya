@@ -21,7 +21,7 @@ function Home() {
             <h2 className='nametext'>Soy la Profesora Mireya Pedroza</h2>
             <span></span>
             <Text />
-            <button onClick={() => {
+            {/* <button onClick={() => {
               window.open("https://github.com/rahulvijay81");
             }}
               className='socailmediabtn'><AiFillGithub className='icon' /></button>
@@ -36,7 +36,7 @@ function Home() {
             <button onClick={() => {
               window.open("https://instagram.com/rahulvijay81");
             }}
-              className='socailmediabtn'><AiFillInstagram className='icon' /></button>
+              className='socailmediabtn'><AiFillInstagram className='icon' /></button> */}
           </Col> 
 
           <Col md={5}>
