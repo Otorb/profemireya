@@ -11,6 +11,17 @@ import Login from './Compónents/Login/Login';
 import CLase from './Compónents/Login/CLase';
 import Conatact from './Compónents/Contact/Conatact';
 import VideoClass from './Compónents/VideoClass/VideoClass'
+import Algebra from './Compónents/Algebra/Algebra'
+import ConjuntoC from "./Compónents/ConjuntoC/ConjuntoC";
+import ConjuntoN from "./Compónents/ConjuntoN/ConjuntoN";
+import ConjuntoQ from "./Compónents/ConjuntoQ/ConjuntoQ";
+import ConjuntoR from "./Compónents/ConjuntoR/ConjuntoR";
+import ConjuntoZ from "./Compónents/ConjuntoZ/ConjuntoZ";
+import Ecuaciones from "./Compónents/Ecuaciones/Ecuaciones";
+import Derivadas from "./Compónents/Derivadas/Derivadas";
+import Integrales from "./Compónents/Integrales/Integrales";
+import Limite from "./Compónents/Limite/Limite";
+import Trigonometria from "./Compónents/Trigonometria/Trigonometria";
 
  
 function App() {
@@ -67,6 +78,18 @@ function App() {
        <Route exact path="/contact" element={<Conatact />} />
        <Route exact path="/clases" element={<CLase />} />
        <Route exact path="/videoclass" element={<VideoClass />} />
+
+       <Route exact path="/clases/algebra" element={<Algebra />} />
+        <Route exact path="/clases/conjuntoc" element={<ConjuntoC />} />
+        <Route exact path="/clases/conjunton" element={<ConjuntoN />} />
+        <Route exact path="/clases/conjuntoq" element={<ConjuntoQ />} />
+        <Route exact path="/clases/conjuntor" element={<ConjuntoR />} />
+        <Route exact path="/clases/conjuntoz" element={<ConjuntoZ />} />
+        <Route exact path="/clases/ecuaciones" element={<Ecuaciones />} />
+        <Route exact path="/clases/derivada" element={<Derivadas />} />
+        <Route exact path="/clases/integrales" element={<Integrales />} />
+        <Route exact path="/clases/limite" element={<Limite />} />
+        <Route exact path="/clases/trigonometria" element={<Trigonometria />} />
       </Routes> 
     </div>
   );
