@@ -6,13 +6,16 @@ import {
     AiFillGithub,
     AiOutlineTwitter,
     AiFillInstagram,
+    AiOutlineWhatsApp
   } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
+  import whatsapp from '../../Assets/btnflo.png'
 
 
 function Home() {
   return (
     <div className='homepagebackground homepagebackground2'>
+    
       <div className='homepagebackground2'>
       <Container>
         <Row>
@@ -45,6 +48,10 @@ function Home() {
           </Col>
         </Row>
       </Container>
+      <a href="https://api.whatsapp.com/send?phone=584128270033">
+        
+        <img src={whatsapp} className="btn-flotante"/>
+      </a>
       </div>
     </div>
   )
