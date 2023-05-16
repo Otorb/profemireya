@@ -10,9 +10,15 @@ import {
   } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
   import whatsapp from '../../Assets/btnflo.png'
+  import carta from '../../Assets/Maplewood.pdf'
 
 
 function Home() {
+
+  function onClick(e) {
+    window.open(e.target.value)
+  }
+
   return (
     <div className='homepagebackground homepagebackground2'>
     
@@ -24,11 +30,9 @@ function Home() {
             <h2 className='nametext'>Soy la Profesora Mireya Pedroza</h2>
             <span></span>
             <Text />
+            <h3 className='certificado'>Certificado Maplewood Academy </h3>
+            <button value={carta} onClick={e=> onClick(e)} className='outline-btn'>descargar</button>
             {/* <button onClick={() => {
-              window.open("https://github.com/rahulvijay81");
-            }}
-              className='socailmediabtn'><AiFillGithub className='icon' /></button>
-            <button onClick={() => {
               window.open("https://www.linkedin.com/in/rahulvijay81/"); 
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>

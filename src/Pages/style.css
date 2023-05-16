@@ -223,6 +223,31 @@
 .icon {
   font-size: 30px;
 }
+.certificado{
+  margin-top: 25px;
+  font-size: 2.0em !important;
+  color: white !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+
+
+.outline-btn {
+  margin-top: 25px;
+  background: linear-gradient(180deg, #35bb23 26.71%, #63e029 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(129, 189, 32, 0.42);
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+  margin-left: 5rem;
+}
+.outline-btn:hover {
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+}
 
 @media (max-width: 767px) {
   .homepagebackground2 {
@@ -254,6 +279,12 @@
     font-size: 2.4em !important;
     color: black !important;
   }
+  .certificado{
+    margin-top: 20px;
+    font-size: 1.4em !important;
+    color: black !important;
+  }
+
   .imagedeveloper {
     margin-top: 50px;
     max-width: 420px;
@@ -263,6 +294,10 @@
   .socailmediabtn {
     margin-top: 1rem;
   }
+  .outline-btn{
+    margin-top: 20px;
+  }
+ 
 }
 
 /* Aboutpage style */
