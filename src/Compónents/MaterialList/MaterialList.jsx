@@ -2,7 +2,10 @@ import React from "react";
 import ProjectCard from "./propCards";
 import { Container, Row, Col } from "react-bootstrap";
 
+
+
 function MaterialList() { 
+  const url = "http://profemireyita.vercel.app"
   const alge =
     "https://img.freepik.com/vector-premium/formulas-cientificas-algebra-matematica-ecuacion-garabatos-signos-graficos-geometria-matematica_399998-300.jpg";
   const conc =
@@ -37,7 +40,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="Algebra"
                 description="Es la rama de la matemática que estudia la combinación de elementos de estructuras abstractas acorde a ciertas reglas."
-                // ghLink="https://rahul-dashboard-pannel.netlify.app"
+                 ghLink= "http://profemireyita.vercel.app/clases/algebra"
               />
             </Col>
 
@@ -47,7 +50,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="CONJUNTO C"
                 description="El complemento de un conjunto o conjunto complementario es otro conjunto que contiene todos los elementos que no están en el conjunto original."
-                // ghLink="https://olx-clone-rahul.netlify.app/"
+                 ghLink="http://profemireyita.vercel.app/clases/conjuntoc"
               />
             </Col>
 
@@ -57,7 +60,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="CONJUNTO N"
                 description=" Un número natural es cualquiera de los números que se usan para contar los elementos de ciertos conjuntos. Los números naturales se representan con la ℕ = {1, 2, 3, 4, …} De dos números vecinos, el que se encuentra a la derecha se llama siguiente o sucesivo."
-                // ghLink="https://react-netflixweb-clone.netlify.app/"
+                 ghLink="http://profemireyita.vercel.app/clases/conjunton"
               />
             </Col>
 
@@ -67,7 +70,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="CONJUNTO Q"
                 description="Está formado por todos aquellos númernos que podemos expresar mediante una fracción, también conocidos como quebrados."
-                // ghLink="https://gridlinesbuilders.in/"
+                 ghLink="http://profemireyita.vercel.app/clases/conjuntoq"
               />
             </Col>
 
@@ -77,7 +80,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="CONJUNTO R"
                 description="En matemáticas, el conjunto de los números reales (denotado por R ) incluye tanto los números racionales (positivos, negativos y el cero) como los números irracionales."
-                // ghLink="https://rahulvijay81.github.io/Pizzastore-bootstrap/"
+                 ghLink="http://profemireyita.vercel.app/clases/conjuntor"
               />
             </Col>
 
@@ -87,7 +90,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="CONJUNTO Z"
                 description= "El conjunto de números enteros (Z) está formado por los números naturales (1,2,3...) precedidos del signo mas (+), positivos, o menos (-), negativos, y el número entero cero, que se escribe sin signo."
-                // ghLink="https://todolist-rahul81.netlify.app/"
+                 ghLink="http://profemireyita.vercel.app/clases/conjuntoz"
               />
             </Col>
 
@@ -97,7 +100,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="Ecuación diferencial"
                 description= "Una ecuación diferencial es una ecuación matemática que relaciona una función con sus derivadas."
-                // ghLink="https://todolist-rahul81.netlify.app/"
+                 ghLink="http://profemireyita.vercel.app/clases/ecuaciones"
               />
             </Col>
 
@@ -107,7 +110,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="Límite"
                 description="Es la clave de toque que formaliza la noción intuitiva de aproximación hacia un punto concreto de una sucesión o una función, a medida que los parámetros de esa sucesión o función se acercan a un determinado valor."
-                // ghLink="https://todolist-rahul81.netlify.app/"
+                 ghLink="http://profemireyita.vercel.app/clases/limite"
               />
             </Col>
 
@@ -117,7 +120,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="Derivada"
                 description= "Es la razón de cambio instantánea con la que varía el valor de dicha función matemática, según se modifique el valor de su variable independiente."
-                // ghLink="https://todolist-rahul81.netlify.app/"
+                 ghLink="http://profemireyita.vercel.app/clases/derivada"
               />
             </Col>
 
@@ -127,7 +130,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="Integrales"
                 description = "Es una generalización de la suma de infinitos sumandos, infinitesimalmente pequeños: una suma continua."
-              //  ghLink="https://todolist-rahul81.netlify.app/"
+                ghLink="http://profemireyita.vercel.app/clases/integrales"
               />
             </Col>
 
@@ -137,7 +140,7 @@ const trigon = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Trigon
                 isBlog={false}
                 title="Trigonometría"
                 description="Es el estudio de las razones trigonométricas: seno, coseno, tangente, cotangente, secante y cosecante."
-                //  ghLink="https://todolist-rahul81.netlify.app/"
+               ghLink="http://profemireyita.vercel.app/clases/trigonometria"
               />
             </Col>
           </Row>
