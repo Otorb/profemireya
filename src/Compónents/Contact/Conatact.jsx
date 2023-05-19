@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import '../../Pages/style.css'
 
+
 function Conatact() {
   const navigate = useNavigate();
   //mail aqui
@@ -51,7 +52,10 @@ function Conatact() {
       <button className="submit formEntry" onclick="thanks()">
         Enviar
       </button>
+      <h2 style={{textAlign : "center"  }} >Teléfono</h2>
+      <h3 style={{textAlign : "center"  }}>+584128270033</h3>
     </form>
+   
   </div>
   )
 }

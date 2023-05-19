@@ -6,11 +6,13 @@ import {
     AiFillGithub,
     AiOutlineTwitter,
     AiFillInstagram,
-    AiOutlineWhatsApp
+    AiOutlineWhatsApp,
+   
   } from "react-icons/ai";
   import { FaLinkedinIn } from "react-icons/fa";
   import whatsapp from '../../Assets/btnflo.png'
   import carta from '../../Assets/Maplewood.pdf'
+  import youtube from '../../Assets/youtube.webp'
 
 
 function Home() {
@@ -30,6 +32,11 @@ function Home() {
             <h2 className='nametext'>Soy la Profesora Mireya Pedroza</h2>
             <span></span>
             <Text />
+            <button onClick={() => {
+              window.open("#");
+            }}
+              className='socailmediabtn'><img src={youtube} width="90px" height="90px" className='icon' /></button> 
+              <br /><br />
             <h3 className='certificado'>Certificado Maplewood Academy </h3>
             <button value={carta} onClick={e=> onClick(e)} className='outline-btn'>descargar</button>
             {/* <button onClick={() => {
@@ -44,6 +51,7 @@ function Home() {
               window.open("https://instagram.com/rahulvijay81");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button> */}
+             
           </Col> 
 
           <Col md={5}>

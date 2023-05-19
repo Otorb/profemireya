@@ -5,14 +5,9 @@ import Logueo from "./Login";
 
  
 function CLase() {
-    const [user, setUsuario] = React.useState(null);
-    useEffect(() => {
-      app.auth().onAuthStateChanged((usuarioFirebase) => {
-        setUsuario(usuarioFirebase);
-      });
-    }, []);
+   
 
-  return <>{user ? <Users/> : <Logueo setUsuario={setUsuario} />}</>
+  return <div style={{marginTop : "100px"  }} > <Users/></div>
   
 }
 
