@@ -24,12 +24,12 @@ function User() {
   return (
     <div style={{marginTop: "180px"}}>
     <h1 style={{marginLeft: "20px"}}> ¡Bienvenido {userNameShow}!</h1>
-       {/* <div style={{textAlign: "center" }}>
+       <div style={{textAlign: "center" }}>
 
     <button  className='loginbutton2'  >
     <Link   style={{textDecoration: 'inherit', color: 'inherit'}} to={'/videoclass'} >Videos de Clases </Link>
     </button><br /><br />
-    </div> */}
+    </div> 
     <div style={{textAlign: "center",marginTop:"30px", marginBottom:"-70px" }}>
     <h1>Material de apoyo</h1>  
     </div>
