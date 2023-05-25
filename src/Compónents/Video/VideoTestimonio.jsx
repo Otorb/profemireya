@@ -1,6 +1,6 @@
 import React, {useState, createRef } from "react";
 import "./VideoTestimonio.css"
-
+  import carta from '../../Assets/Maplewood.pdf'
 import { DefaultPlayer as Video } from "react-html5video";
 import "react-html5video/dist/styles.css";
 import vide9 from './video.mp4'
@@ -142,6 +142,8 @@ function VideoTestimonio() {
           );
         })}
       </div>
+ <h3 className='certificado'>A quién pueda interesar </h3>
+            <button value={carta} onClick={e=> onClick(e)} className='outline-btn'>descargar</button>
       <Testimony />
       </div>
     </>
