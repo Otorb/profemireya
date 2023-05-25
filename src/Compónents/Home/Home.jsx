@@ -31,14 +31,14 @@ function Home() {
             <h2 className='headtext'>Hola <span className='wave'>👋 </span></h2>
             <h2 className='nametext'>Soy la Profesora Mireya Pedroza</h2>
             <span></span>
-            <Text />
+<h2 className='nametext'>Profesora de Matemáticas y Física</h2>
+            
             <button onClick={() => {
               window.open("#");
             }}
               className='socailmediabtn'><img src={youtube} width="90px" height="90px" className='icon' /></button> 
               <br /><br />
-            <h3 className='certificado'>Certificado Maplewood Academy </h3>
-            <button value={carta} onClick={e=> onClick(e)} className='outline-btn'>descargar</button>
+           
             {/* <button onClick={() => {
               window.open("https://www.linkedin.com/in/rahulvijay81/"); 
             }}
