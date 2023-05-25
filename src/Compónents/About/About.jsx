@@ -12,7 +12,7 @@ function About() {
                         <br />
                         <h2 className='aboutmetext' style={{textAlgin : "center" }}>¡Por la gracia de Dios! </h2>
 
-                        <p className='aboutdetails'>Soy profesora de matemáticas y magister en educación: Mención Enseñanza de la Física, ambas de la Upel y Dra  en  Ciencias de la Educación egresada de la USM. He dado clases de Matemáticas y Física en diferentes instituciones educativas del país UCV,. UPEL USM, UAH, UNE entre otras. Fui Jurado Principal de Tesis Doctorales por más de 10 años en USM , como también Jefe de Investigación, pregrado, postgrado y doctorado Unefa de La Guaira por 15 meses.  </p>
+                        <p className='aboutdetails'>Soy profesora de matemáticas y magister en educación: Mención Enseñanza de la Física, ambas de la Upel y Dra  en  Ciencias de la Educación egresada de la USM. He dictado clases de Matemáticas y Física en diferentes instituciones educativas del país UCV,. UPEL USM, UAH, UNE entre otras. Fui Jurado Principal de Tesis Doctorales por más de 10 años en USM , como también Jefe de Investigación, pregrado, postgrado y doctorado Unefa de La Guaira por 15 meses.  </p>
                        <ul className='skilllist'>
                             <Row>
                                 <h3>Áreas</h3>
