@@ -10,7 +10,7 @@ function VideoClass() {
   const videoProperties = [
     {
       id: 1,
-      title: "1 Límiteindeterminado infinito sobre infinito",
+      title: "1 Límite indeterminado infinito sobre infinito",
       src: "https://firebasestorage.googleapis.com/v0/b/ecommerce-597b3.appspot.com/o/Videos%2F1680730742460-limite%20indeterminado%20infinito.mp4?alt=media&token=f4a961a8-4723-4a98-8a1c-06728cd3befe",
       credit: "MireyaPedroza",
     }, 
@@ -28,7 +28,7 @@ function VideoClass() {
     },
     {
       id: 4,
-      title: "1 Límite indeterminado 0 sobre 0",
+      title: "1 Límite indeterminado 0/0",
       src: "https://firebasestorage.googleapis.com/v0/b/ecommerce-597b3.appspot.com/o/Videos%2F1680732852323-limite%20indeterminado%200.mp4?alt=media&token=44e177dd-82a3-47d7-b1eb-a0941c3a213e",
       credit: "MireyaPedroza",
     },
@@ -46,7 +46,7 @@ function VideoClass() {
     },
     {
       id: 7,
-      title: "2 Límite indeterminado 0 sobre 0",
+      title: "2 Límite indeterminado 0/0",
       src: "https://firebasestorage.googleapis.com/v0/b/ecommerce-597b3.appspot.com/o/Videos%2F1680735733453-limite%20inde%200%20%20sobre%200.mp4?alt=media&token=cd5324f6-0e6b-40b3-a2e5-dbd4b285d05c",
       credit: "MireyaPedroza",
     },
@@ -64,7 +64,7 @@ function VideoClass() {
     },
     {
       id: 10,
-      title: "3 Límite indeterminado 0 sobre 0",
+      title: "3 Límite indeterminado 0/0",
       src: "https://firebasestorage.googleapis.com/v0/b/ecommerce-597b3.appspot.com/o/Videos%2F1680737240187-li%20inde%200%20sobre%200.mp4?alt=media&token=e20c34c5-b0a7-4888-a111-6ac62399a72b",
       credit: "MireyaPedroza",
     },
