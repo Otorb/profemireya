@@ -154,6 +154,7 @@ function VideoTestimonio() {
             );
           })}
         </div>
+        <div style={{ textAlign: "center" }}>
         <h3 className="certificado">A quién pueda interesar </h3>
         <button
           value={carta}
@@ -162,6 +163,7 @@ function VideoTestimonio() {
         >
           descargar
         </button>
+        </div>
         <Testimony />
       </div>
     </>
