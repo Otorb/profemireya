@@ -10,7 +10,7 @@ function VideoClass() {
   const videoProperties = [
     {
       id: 1,
-      title: "1 Límite indeterminado infinito sobre infinito",
+      title: "1 Límite indeterminado ∞/∞",
       src: "https://firebasestorage.googleapis.com/v0/b/ecommerce-597b3.appspot.com/o/Videos%2F1680730742460-limite%20indeterminado%20infinito.mp4?alt=media&token=f4a961a8-4723-4a98-8a1c-06728cd3befe",
       credit: "MireyaPedroza",
     }, 
@@ -40,7 +40,7 @@ function VideoClass() {
     },
     {
       id: 6,
-      title: "Límite indeterminado funcional exponencial",
+      title: "Límite indeterminado función exponencial",
       src: "https://firebasestorage.googleapis.com/v0/b/ecommerce-597b3.appspot.com/o/Videos%2F1680735280115-limite%20inde%20func%20exponencial.mp4?alt=media&token=dffcb27f-a962-415d-8d9c-a7936727c72d",
       credit: "MireyaPedroza",
     },
@@ -52,13 +52,13 @@ function VideoClass() {
     },
     {
       id: 8,
-      title: "2 Límite indeterminado infinito sobre infinito",
+      title: "2 Límite indeterminado ∞/∞",
       src: "https://firebasestorage.googleapis.com/v0/b/ecommerce-597b3.appspot.com/o/Videos%2F1680736212118-limi%20inde%20infinito%20so%20infit.mp4?alt=media&token=2f7bd2b0-d7e7-4c90-8d96-9baf5973a3b7",
       credit: "MireyaPedroza",
     },
     {
       id: 9,
-      title: "3 Límite indeterminado infinito sobre infinito",
+      title: "3 Límite indeterminado ∞/∞",
       src: "https://firebasestorage.googleapis.com/v0/b/ecommerce-597b3.appspot.com/o/Videos%2F1680736627728-lim%20i%20inf%20s%20onf.mp4?alt=media&token=f6b976c9-d9f4-4d28-b9f6-39598764693f",
       credit: "MireyaPedroza",
     },
