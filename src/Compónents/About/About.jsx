@@ -4,7 +4,7 @@ import "../../Pages/style.css"
 
 function About() {
   return (
-    <div className='aboutpagebackground'>
+    <div className='aboutpagebackground' id="about">
             <Container>
                 <Row className='textbackground'>
                     <Col md={7} >

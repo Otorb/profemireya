@@ -23,6 +23,11 @@ import Integrales from "./Compónents/Integrales/Integrales";
 import Limite from "./Compónents/Limite/Limite";
 import Trigonometria from "./Compónents/Trigonometria/Trigonometria";
 
+
+
+
+
+
  
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -71,6 +76,8 @@ function App() {
       />
       <NavBar />
        <Routes> 
+       
+       {/* <Route path="/" element={<ContactHome /> } /> */}
        <Route path="/" element={<Home /> } />
        <Route path="/about" element={<About /> } />
        <Route path="/testimony" element={<VideoTestimony /> } />
@@ -78,7 +85,6 @@ function App() {
        <Route exact path="/contact" element={<Conatact />} />
        <Route exact path="/clases" element={<CLase />} />
        <Route exact path="/videoclass" element={<VideoClass />} />
-
        <Route exact path="/clases/algebra" element={<Algebra />} />
         <Route exact path="/clases/conjuntoc" element={<ConjuntoC />} />
         <Route exact path="/clases/conjunton" element={<ConjuntoN />} />
@@ -91,6 +97,7 @@ function App() {
         <Route exact path="/clases/limite" element={<Limite />} />
         <Route exact path="/clases/trigonometria" element={<Trigonometria />} />
       </Routes> 
+      
     </div>
   );
 }

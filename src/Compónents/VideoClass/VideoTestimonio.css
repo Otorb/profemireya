@@ -22,6 +22,34 @@
   transform: scale(0.98);
 }
 
+.titlevideo{
+  font-style: normal;
+  font-family: Inter; 
+  font-weight: 700 ;
+  font-size: 40px;
+  
+}
+.titlevideo2{
+  margin-top: 20px;
+  font-style: normal;
+  font-family: Inter; 
+  font-weight: 400 ;
+  font-size: 30px;
+  
+}
+.barra{
+  display: flex;
+   justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin-left: 50%; */
+  /* transform: translate(-50%,-50%); */
+}
+.model-close-btn{
+  margin-top: 100px;
+}
+
 
 @media (max-width: 800px) {
   .gallery {

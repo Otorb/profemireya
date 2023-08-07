@@ -14,6 +14,13 @@ import {
   import carta from '../../Assets/Maplewood.pdf'
   import youtube from '../../Assets/youtube.webp'
 
+import About from '../About/About';
+import TestiHome from '../TestiHome/TestiHome';
+import MaterialHome from '../MaterialHome/MaterialHome'
+import Clases from '../Clases/Clases';
+import Footer from '../Footer/Footer';
+import ContactHome from '../ContactHome/ContactHome';
+
 
 function Home() {
 
@@ -65,6 +72,15 @@ function Home() {
         <img src={whatsapp} className="btn-flotante"/>
       </a>
       </div>
+      <br />
+      <About />
+      <br /> <br /> <br /> 
+      <TestiHome />
+      <br/>
+      <Clases />
+      <MaterialHome />
+<ContactHome />
+      <Footer />
     </div>
   )
 }

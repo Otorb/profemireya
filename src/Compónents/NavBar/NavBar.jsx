@@ -8,6 +8,11 @@ import '../../Pages/style.css'
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
     const [navColour, updateNavbar] = useState(false);
+    const [activeLink, setActiveLink] = useState("home");
+
+    const onUpdateActiveLink = (value) => {
+      setActiveLink(value);
+    };
   
     function scrollHandler() {
     if (window.scrollY >=   20) {
@@ -47,13 +52,23 @@ function NavBar() {
           <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}> Home </Nav.Link>
         </Nav.Item>
         <Nav.Item>
+         
           <Nav.Link
+           href='#about' 
+            // as={Link}
+            // to="/about"
+            // onClick={() => updateExpanded(false)}
+            onClick={() => onUpdateActiveLink("about")}
+          >
+            Sobre mi
+          </Nav.Link>
+          {/* <Nav.Link
             as={Link}
             to="/about"
             onClick={() => updateExpanded(false)}
           >
             Sobre mi
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav.Item>
 
         <Nav.Item>

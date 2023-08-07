@@ -1,0 +1,142 @@
+ .ImageTopFooter{
+  
+        background-image: url("../../Assets/fiesta.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      margin-bottom: -200px;
+     
+        /* position: absolute;
+        bottom: 192px; */
+    }
+    .ImageTopFooter img{
+        width: 100%;
+        height:100%;
+    }
+
+    .PhotoContainer{
+ /* margin-top: -100px; */
+        height: 400px;
+        width: 400px;
+        border-radius: 15px;
+        /* background-image: url('../../Assets/online.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        overflow: hidden; */
+      }
+      
+      
+      .PhotoContainer:hover{
+        filter: grayscale(80%);
+        transform: scale(1.1);
+        transition: 500ms;
+      }
+
+.ConctactBody{
+    display: flex;
+
+  width: 98%;
+  margin: 0 auto;
+  /* margin-top: 100px; */
+  margin-bottom: 3rem;
+  justify-content: space-around;
+}
+
+.StyledHeading {
+    margin-top: 50px;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: white;
+  }
+  
+  .TextSection{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 1.2rem;
+    width:500px;
+    color: white;
+  }
+  .formularioCOmpleto{
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    color: white;
+  }
+  .inpucorreo{
+    width: 450px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .inpucorreo::placeholder{
+    color: white;
+  }
+  @media screen and (max-width: 1200px) {
+    .AboutContainer{
+        margin-top: 55px;
+    }
+    .ConctactBody{
+      
+      flex-direction: column;
+      align-items: center;
+    }
+    .TextSection,.StyledHeading{
+        
+      width: 90%;
+      margin: 0 auto;
+    }
+    .formularioCOmpleto{
+        margin-top: 100px;
+    }
+   
+    .PhotoContainer{
+      margin-top:2rem;
+      margin-bottom: 2rem;
+    }
+    .ImageTopFooter{
+        margin-bottom: -120px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .formularioCOmpleto{
+      margin-top: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .formularioCOmpleto{
+        margin-top: 10px;
+        /* height: 300px; */
+      }
+  }
+  @media screen and (max-width: 415px) {
+    .ImageTopFooter{
+        /* margin-bottom: px; */
+        height: 700px;
+        
+    }
+    .ConctactBody{
+        margin-bottom: 100px;
+    }
+    .formularioCOmpleto{
+        margin-bottom: 100px;
+      }
+    .formularioCOmpleto,.inpucorreo{
+        
+        width: 300px;
+       
+    
+      }
+  }
+  @media screen and (max-width: 290px) {
+    .formularioCOmpleto,.inpucorreo{
+        /* height: 100px; */
+        width: 200px;
+    
+    
+      }
+  }
