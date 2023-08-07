@@ -82,13 +82,22 @@ function NavBar() {
         </Nav.Item>
 
         <Nav.Item>
-          <Nav.Link
+        <Nav.Link
+           href='#ContactHome' 
+            // as={Link}
+            // to="/about"
+            // onClick={() => updateExpanded(false)}
+            onClick={() => onUpdateActiveLink("ContactHome")}
+          >
+            Contacto
+          </Nav.Link>
+          {/* <Nav.Link
             as={Link}
             to="/contact"
             onClick={() => updateExpanded(false)}
           >
             Contacto
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav.Item>
         <Link to="/clases" style={{ cursor: "pointer" }}>
         <Button className='resumebtn'><span>Materiales</span>
