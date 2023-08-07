@@ -30,7 +30,7 @@ function Clases() {
       {soloProjects.map((pro) => (
         <article className="portfolio__item" key={pro.id}>
           <div className="portfolio__item-image">
-            <img src={pro.img} width="300px"  alt={pro.title} />
+            <img src={pro.img} width="420px"  alt={pro.title}  />
           </div>
           <div className="portfolio__item-content">
             <h3 style={{textAlign: "center"}} >{pro.title}</h3>
