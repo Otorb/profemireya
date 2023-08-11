@@ -17,19 +17,20 @@ function About() {
                             <Row>
                                 <h3>Áreas</h3>
                                 <Col md={7}>
-                                    <li>Matemática I, II y III</li>
-                                    <li>Matemática de secundaria y universitaria</li>
-                                    <li>Algebra I, II, III</li>
-                                    <li>Conjunto N, C, Q, R, Z</li>
-                                    <li>Integrales</li>
-                                    <li>Límite</li>
+                                    <li>Matemática básica.</li>
+                                    <li>Conjunto N, Z, Q, R, C.</li>
+                                    <li>Algebra.</li>
+                                    <li>Matemática.</li>
+                                    <li>Integrales.</li>
+                                    <li>Límite.</li>
+                                    <li>Geometría analítica.</li>
                                 </Col> 
                                 <Col md={5}>
-                                    <li>Física I y II</li>
-                                    <li>Ecuaciones</li>
-                                    <li>Álgebra</li>
-                                    <li>Trigonometría</li>
-                                    <li>¡Mucho más!..</li>
+                                    <li>Física.</li>
+                                    <li>Cinemática.</li>
+                                    <li>Dinámica.</li>
+                                    <li>Electromagnetismo.</li>
+                                    <li>¡Mucho más!...</li>
                                 </Col>
                             </Row>
                         </ul>
