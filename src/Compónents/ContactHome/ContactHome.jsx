@@ -31,11 +31,12 @@ function ContactHome() {
           <h1 className="StyledHeading">¿Tienes alguna duda?</h1>
 
           <div className="TextSection">
-            Escríbeme y diseñare una clase especial para ti de acuerdo a tus
-            necesidades puntuales o de tus intereses futuros profesionales. Que
-            la matemática no sea un obstáculo para cumplir tus metas sino un
-            peldaño para alcanzarlas. ¡Contáctame y cuéntame tu problema, lo
-            resolveremos juntos!
+          Escríbeme y diseñaré una clase especial para tí. 
+          De acuerdo a tus necesidades o intereses. 
+          Que las matemáticas no sea un obstáculo sino un 
+          peldaño para alcanzar tus metas. 
+          ¡Contáctame y cuéntame tu problema y lo resolveremos 
+          juntos!
           </div>
         </div>
 
