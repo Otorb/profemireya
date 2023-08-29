@@ -69,17 +69,24 @@ function About() {
               <Row>
                 <h3>Áreas</h3>
                 <Col md={7}>
-                <ul> Matemática básica.</ul>
-                <ul> Matemática I.</ul>
-                <ul> Matemática II.</ul>
-                <ul> Matemática III.</ul>
-                  <ul>Cálculo I</ul>
-                  <ul>Cálculo II</ul>
-                  <ul>Matemática para Educación Especial Juegos y Recursos Educativos de Matemáticas</ul>
-                  <ul>Metodología de la Investigación Razonamiento Lógico Enseñanza de la Matemáticas para futuros docentes integrales Estadística. </ul>
-                  <ul>Geometría Analítica Algebra Lineal.</ul>
-                  <ul>Física: Cinemática,Dinamica, Electromagnetismo.</ul>
-                  
+                  <ul> Matemática básica.</ul>
+                  <ul> Matemática I.</ul>
+                  <ul> Matemática II.</ul>
+                  <ul> Matemática III.</ul>
+                  <ul>Cálculo I.</ul>
+                  <ul>Cálculo II.</ul>
+                  <ul>Matemática para Educación Especial.</ul>
+                  <ul>Juegos y Recursos Educativos de Matemáticas.</ul>
+                  <ul>Metodología de la Investigación.</ul>
+                  <ul> Razonamiento Lógico.</ul>
+                  <ul>
+                    Enseñanza de la Matemáticas para futuros docentes
+                    integrales.{" "}
+                  </ul>
+                  <ul> Estadística. </ul>
+                  <ul>Geometría Analítica.</ul>
+                  <ul>Algebra Lineal.</ul>
+                  <ul>Física: Cinemática, Dinamica, Electromagnetismo.</ul>
                 </Col>
                 {/* <Col md={5}>
                   <ul> Física.</ul>
