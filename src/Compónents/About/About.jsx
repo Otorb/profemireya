@@ -86,7 +86,11 @@ function About() {
                   <ul> Estadística. </ul>
                   <ul>Geometría Analítica.</ul>
                   <ul>Algebra Lineal.</ul>
-                  <ul>Física: Cinemática, Dinamica, Electromagnetismo.</ul>
+                  <ul>Física: </ul>
+                  <ul>Cinemática </ul>
+                  <ul> Dinamica</ul>
+                  <ul>Electromagnetismo.</ul>
+                  <ul>Metodología de la Investigación.</ul>
                 </Col>
                 {/* <Col md={5}>
                   <ul> Física.</ul>
