@@ -35,8 +35,8 @@ function Home() {
       <Container>
         <Row>
           <Col md={7}>
-            <h2 className='headtext'>Hola <span className='wave'>👋 </span></h2>
-            <h2 className='nametext'>Soy la Profesora Mireya Pedroza</h2>
+            {/* <h2 className='headtext'>Hola <span className='wave'>👋 </span></h2> */}
+            <h2 className='nametext'>¡Hola! Soy la Profesora Mireya Pedroza</h2>
             <span></span>
 <h2 className='nametext'>Profesora de Matemáticas y Física</h2>
             
@@ -74,7 +74,7 @@ function Home() {
       </div>
       <br />
       <About />
-      <br /> <br /> <br /> 
+      <br />  
       <TestiHome />
       <br/>
       <Clases />

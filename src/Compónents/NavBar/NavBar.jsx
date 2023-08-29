@@ -72,11 +72,18 @@ function NavBar() {
         </Nav.Item>
 
         <Nav.Item>
-          <Nav.Link 
+        <Nav.Link
+           href='#testimony' 
+            // as={Link}
+            // to="/about"
+            // onClick={() => updateExpanded(false)}
+            onClick={() => onUpdateActiveLink("about")}
+          >
+          {/* <Nav.Link 
             as={Link}
             to="/testimony"
             onClick={() => updateExpanded(false)}
-          >
+          > */}
             Testimonios
           </Nav.Link>
         </Nav.Item>
