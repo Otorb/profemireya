@@ -36,7 +36,7 @@ function Home() {
         <Row>
           <Col md={7}>
             {/* <h2 className='headtext'>Hola <span className='wave'>👋 </span></h2> */}
-            <h2 className='nametext'>¡Hola! Soy la Profesora Mireya Pedroza</h2>
+            <h2 className='nametext'>¡Hola! Soy Mireya Pedroza</h2>
             <span></span>
 <h2 className='nametext'>Profesora de Matemáticas y Física</h2>
             
