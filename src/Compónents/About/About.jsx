@@ -88,10 +88,6 @@ function About() {
                   <ul>Algebra I</ul>
                   <ul>Algebra II</ul>
                   <ul>Geometry</ul>
-                  <ul>Física: </ul>
-                  <ul>Cinemática </ul>
-                  <ul> Dinamica</ul>
-                  <ul>Electromagnetismo.</ul>
                   <br />
                   <ul>Metodología de la Investigación.</ul>
                 </Col>
